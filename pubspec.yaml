@@ -1,8 +1,8 @@
 name: flutterpage
 description: A new Flutter package.
 version: 0.0.1
-author:
-homepage:
+author: leielyq
+homepage: https://github.com/leielyq/flutter_page
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

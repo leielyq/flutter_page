@@ -36,6 +36,10 @@ abstract class PageState<T extends StatefulWidget> extends State<T>
     }
   }
 
+  openTwoWidget() {
+    _refreshController.requestTwoLevel();
+  }
+
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
