@@ -39,6 +39,10 @@ abstract class PageState<T extends StatefulWidget> extends State<T>
   openTwoWidget() {
     _refreshController.requestTwoLevel();
   }
+    
+     closeTwoWidget(){
+    _refreshController.twoLevelComplete();
+  }
 
   @override
   void dispose() {
